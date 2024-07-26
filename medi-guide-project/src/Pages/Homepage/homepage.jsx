@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import './homepage.css';
-import temp from '../../assets/Temp1.png';
+import temp from '../../assets/Temp1.webp';
 import { Link } from "react-router-dom";
 import FAQ from '../../Components/Accordion/acc.jsx';
 
