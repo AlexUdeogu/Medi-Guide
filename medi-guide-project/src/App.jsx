@@ -13,7 +13,6 @@ const queryClient = new QueryClient();
 
 function App() {
   const [reminders, setReminders] = useState([
-    // Example reminder
     {
       prescriptionName: 'Aspirin',
       dosage: '100mg',
