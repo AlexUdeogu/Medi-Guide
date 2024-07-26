@@ -1,0 +1,179 @@
+/* Mainapp overlay .css */
+
+.mainapp-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.288);
+    z-index: 1000;
+    overflow:scroll;
+  }
+  
+  
+  
+  .mainapp-overlay.show {
+    display: flex;
+  }
+  
+  .mainapp-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 50%; /* Default width */
+  }
+  
+  .login-page {
+    color: var(--text);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-family: var(--body-font);
+    font-size: 15px;
+  }
+  
+  .login-container {
+    background: var(--input-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    padding: 20px;
+  }
+  
+  .title-top {
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+  
+  .login-title {
+    font-family: var(--heading-font);
+    text-align: center;
+    font-size: 60px;
+  }
+  
+  .login-description {
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .login-form {
+    width: 100%;
+  }
+  
+  .name-fields,
+  .user-fields {
+    display: flex;
+    flex-wrap: wrap; /* Allow fields to wrap */
+    justify-content: space-between;
+  }
+  
+  .login-form-group {
+    flex: 1;
+    margin-bottom: 0.8rem;
+    margin-left: 2%;
+  }
+  
+  .login-form-label {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 0.5rem;
+    white-space: nowrap;
+    font-weight: 600;
+  }
+  
+  .login-form-input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 0.5px solid #949494;
+    background: var(--input-background);
+    color: var(--text);
+  }
+  
+  .login-form-input-time {
+    padding: 0.5rem;
+    font-size: 13.5px;
+    width: 100%;
+    border-radius: 6px;
+    border: 0.5px solid #949494;
+    background: var(--input-background);
+    color: var(--text);
+  }
+  
+  .button-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+    justify-content: space-between; /* Adjust as needed */
+    gap: 10px; /* Adjust the gap between buttons */
+  }
+  
+  .login-form-button,
+  .close-button,
+  .add-time-button,
+  .remove-time {
+    flex-basis: calc(33% - 10px); /* Set flex-basis to a percentage minus gap */
+    margin-top: 10px;
+    padding: 0.5rem;
+    border-radius: 6px;
+    white-space: nowrap;
+    border: none;
+    background: #0F2B2D; /* Default button background */
+    color: var(--button-text);
+    font-size: 15px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+  
+  .remove-time{
+    border-radius: 6px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d9534f;
+    background: #ffffff; /* Red color for delete button */
+    color: #d9534f;}
+  
+  .remove-time:hover{
+    background: #c9302c; 
+    color: #ffffff;}
+  
+  @media (max-width: 768px) {
+    .mainapp-content {
+      width: 80%; /* Adjust width for smaller screens */
+    }
+  
+    .login-form-button,
+    .close-button,
+    .add-time-button,
+    .remove-time {
+      flex-basis: calc(50% - 10px); /* Adjust for smaller screens */
+    }
+  
+    .login-title{
+      font-size: 50px;
+    }
+  
+    @media (max-width:420px) {
+  
+    .login-title{
+      font-size: 35px;
+    }
+  
+    .login-description{
+      font-size: 13px;
+    }
+    }
+  }
+  
