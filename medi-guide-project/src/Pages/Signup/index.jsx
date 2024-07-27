@@ -22,9 +22,6 @@ const Signup = () => {
     <div>
       <nav className='nav-3'>
         <Link to="/" className='logo-0'> Medi<span className='logo-half'>Guide</span></Link>
-        <ul>
-          <li><Link to="/log-in"><botton type="submit" className="item-container-2-0">Log In</botton></Link></li>
-        </ul>
       </nav>
 
       <div className="login-page-0">
@@ -95,6 +92,9 @@ const Signup = () => {
 
             <button type="submit" className="login-form-button-0">Sign Up</button>
           </form>
+          <p className='account'>
+            Have an account? <Link to="/log-in">Log In</Link>
+          </p>
         </div>
 
         <div className="cutout-container-0">

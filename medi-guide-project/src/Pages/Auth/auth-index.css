@@ -97,7 +97,8 @@
   
 .account{
   padding-left: 35px;
-  padding-top: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .account a{

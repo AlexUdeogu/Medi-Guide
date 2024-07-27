@@ -22,9 +22,6 @@ const LoginPage = () => {
     <div className='body'>
       <nav className='nav-2'>
         <Link to="/" className='logo-1'> Medi<span className='logo-half'>Guide</span></Link>
-        <ul>
-          <li><Link to="/sign-up"><botton type="button" className="item-container-1">Sign Up</botton></Link></li>
-        </ul>
       </nav>
 
       <div className="login-page-1">
