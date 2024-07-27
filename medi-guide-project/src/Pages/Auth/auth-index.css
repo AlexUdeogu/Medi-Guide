@@ -95,19 +95,15 @@
     color: rgb(153, 153, 153); 
   }
   
-  .forgotpassword-1 {
-    text-align: center;
-    margin-top: 1rem; 
-  }
-  
-  .forgotpassword-1 a {
-    color: #1C3A3E;
-    text-decoration: none;
-  }
-  
-  .forgotpassword-1 a:hover {
-    text-decoration: underline;
-  }
+.account{
+  padding-left: 35px;
+  padding-top: 20px;
+}
+
+.account a{
+  text-decoration: none;
+  color: #01796F;
+}
   
   .cutout-container-1 {
     width: 55%;   
@@ -215,8 +211,7 @@
       background: var(--input-background);
       padding: 2rem;
       width: 90%;
-      border: #0F2B2D;
-      outline: 2px solid;
+
       height: auto; /* Adjust height as necessary */
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Bigger and more prominent shadow */
       border-radius: 13px; /* Rounded corners */
@@ -230,6 +225,10 @@
   
     .cutout-container-1{
       display: none;
+    }
+
+    .account{
+      padding-left: 20px;
     }
   }
   
@@ -251,8 +250,7 @@
       background: var(--input-background);
       padding: 2rem;
       width: 90%;
-      border: #0F2B2D;
-      outline: 2px solid;
+ 
       height: auto; /* Adjust height as necessary */
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Bigger and more prominent shadow */
       border-radius: 13px; /* Rounded corners */
@@ -268,7 +266,9 @@
       display: none;
     }
   
-  
+    .account{
+      padding-left: 25px;
+    }
   
   }
   
@@ -291,8 +291,7 @@
       background: var(--input-background);
       padding: 1rem;
       width: 80%; 
-      border: #0F2B2D;
-      outline: 2px solid;
+
       height: auto; /* Adjust height as necessary */
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Bigger and more prominent shadow */
       border-radius: 13px; /* Rounded corners */
@@ -315,7 +314,10 @@
       font-size: 13px;
     }
     
-  
+    .account{
+      padding-left: 20px;
+      font-size: 13px;
+    }
   
   
   

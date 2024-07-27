@@ -212,8 +212,7 @@
       background: var(--input-background);
       padding: 2rem;
       width: 80%; 
-      border: #0F2B2D;
-      outline: 2px solid;
+
       height: auto; /* Adjust height as necessary */
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Bigger and more prominent shadow */
       border-radius: 13px; /* Rounded corners */
@@ -249,8 +248,8 @@
       background: var(--input-background);
       padding: 2rem;
       width: 80%; 
-      border: #0F2B2D;
-      outline: 2px solid;    height: auto; /* Adjust height as necessary */
+ 
+      height: auto; /* Adjust height as necessary */
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Bigger and more prominent shadow */
       border-radius: 13px; /* Rounded corners */
     }
@@ -285,8 +284,7 @@
       padding: 1rem;
       margin-top: 50px;
       width: 70%;
-      border: #0F2B2D;
-      outline: 2px solid;
+
       height: auto; /* Adjust height as necessary */
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Bigger and more prominent shadow */
       border-radius: 13px; /* Rounded corners */

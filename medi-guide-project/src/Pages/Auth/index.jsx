@@ -59,6 +59,9 @@ const LoginPage = () => {
             </div>
 
             <button type="submit" className="login-form-button-1">Log In</button>
+            <p className='account'>
+              Don't have an account? <Link to="/sign-up">Sign Up</Link>
+            </p>
           </form>
         </div>
         <div className="cutout-container-1">
